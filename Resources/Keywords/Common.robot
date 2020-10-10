@@ -59,6 +59,8 @@ Search DropDown:: Show All
     Capture Page Screenshot
     Sleep                       10s
 
+################################### ทดสอบกรณี Search Product:: Product เลือก DropDown:: E-Bay ###################################   
+################################### เนื่องจากกรณีนี้ไม่มีการส่งค่า Arguments เลยให้ Robot Capture Page Screenshot เพื่อเอาผลลัพท์ออกมา ###################################
 
 Search DropDown:: E-Bay
     Select From List By Label       filters[partner_code]       001 - E-Bay
