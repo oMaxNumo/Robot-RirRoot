@@ -51,7 +51,7 @@ TC004_Search DropDown:: Show ALL
     Close All Browsers
 
 TC005_Search DropDown:: E-Bay
-    [Documentation]    Testcase Name : 1.ทดสอบกรณี Search ในหน้า Product เลือก DropDown:: Show All
+    [Documentation]    Testcase Name : 1.ทดสอบกรณี Search ในหน้า Product เลือก DropDown:: E-Bay
     Open WebBrowser                                 
     Login with Email and Password                   ${username_ariroot}             ${password_airroot}
     Search DropDown:: E-Bay
