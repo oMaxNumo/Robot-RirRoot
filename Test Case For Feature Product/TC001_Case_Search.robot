@@ -3,9 +3,9 @@
 Documentation           Test Case For Feature :: Product | Serach Product
 
 
-Resource    ../Resources/Keywords/Common.robot
+Resource    ../Resources/Keywords/Common_Search.robot
 Resource  	../Resources/Variables/Variable.robot
-Resource  	../Resources/Locators/Locators.robot
+Resource  	../Resources/Locators/Locators_Search.robot
 Resource    ..//TestData//InputData.robot
 Resource    ..//Resources//init.txt
 
@@ -50,12 +50,31 @@ TC004_Search DropDown:: Show ALL
     Search DropDown:: Show All
     Close All Browsers
 
-TC005_Search DropDown:: E-Bay
-    [Documentation]    Testcase Name : 1.ทดสอบกรณี Search ในหน้า Product เลือก DropDown:: E-Bay
+TC005_Search DropDown:: 00001 - Topvalue
+    [Documentation]    Testcase Name : 1.1.ทดสอบกรณี Search ในหน้า Product เลือก DropDown:: 00001 - Topvalue
     Open WebBrowser                                 
     Login with Email and Password                   ${username_ariroot}             ${password_airroot}
-    Search DropDown:: E-Bay
+    Search DropDown:: 00001 - Topvalue
     Close All Browsers
+
+TC006_Search Check Box Without Product Child
+    [Documentation]    Testcase Name : 1.ทดสอบกรณี Search Product:: Check Box Without Product Child
+    Open WebBrowser
+    Login with Email and Password                           ${username_ariroot}             ${password_airroot}
+    Search Product:: Check Box Without Product Child                 
+    Close All Browsers
+
+
+                                        
+
+
+
+
+
+
+
+
+
 
 
     
