@@ -27,5 +27,6 @@ ${Button_Yes}                   xpath=//button[@class='swal2-confirm swal2-style
 ${Link_Product}                 xpath=(//a[contains(@class,'nav-link ')])[6]    
 
 #################### Add_Data_One_SKU_Product_Child #################### 
+${Button_tank1}                 xpath=//a[@ID= 'show_shop_1']
 ${Button_tank2}                 xpath=//a[@ID= 'show_shop_2']
 

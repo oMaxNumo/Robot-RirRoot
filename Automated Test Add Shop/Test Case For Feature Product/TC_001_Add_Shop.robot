@@ -22,11 +22,11 @@ TC00_Login Successful
     Close All Browsers  
 
 
-TC001_Add_Product_Child
+TC001_Add_Product_Child_into_200_Shop
     [Documentation]     Testcase Name : Add Product Child Shopee | Description : เพิ่มข้อมูล Product main Shopee เข้าสู่ระบบสำเสร็จ
     Open WebBrowser
     Login with Email and Password               ${username_ariroot}             ${password_airroot}  
-    Add_Data_SKU_Product_Child                            @{SKU}          
+    Add_Data_SKU_Product_Child_into_200                            @{SKU}          
     Close All Browsers
 
 
