@@ -62,13 +62,33 @@ Add_Data_SKU_Product_Child_into_200
 
 
 
-#######Add Two Shop Product Child
+#######Add 120025520 Shop Product Child
 ######Shop id:: select_shop_id value::1=Shop Code: 0001, Name: Shopee_Test
-Add_Data_Two_SKU_Product_Child
+Add_Data_SKU_Product_Child_One
     [Arguments]             ${SKU_Child}
     ${Search_SKU}           Run Keyword And Return Status            Wait Until Element Is Visible      ${Search}     3s
     Run Keyword If              '${Search_SKU}' != 'True'            Fail       Failed, Don't Find Button Search.
-    Sleep                   5s
+    Input Text              ${Search}           ${SKU_Child}
+    Click Button            ${Search_Button}
+    Click Link              ${Button_Icon_Com}
+    Sleep                   3s
+    Click Link              ${Button_tank1} 
+    Sleep                   2s
+    Click Link              ${Link_Add}
+    Select From List By Value                select_shop_id          1
+    Click Button                             ${Button_Submit}
+    Wait Until Element Is Visible            ${Button_Yes}
+    Sleep                   5s  
+    Click Element                            ${Button_Yes}  
+
+
+
+#######Add 120025521 Shop Product Child
+######Shop id:: select_shop_id value::1=Shop Code: 0001, Name: Shopee_Test
+Add_Data_SKU_Product_Child_Two
+    [Arguments]             ${SKU_Child}
+    ${Search_SKU}           Run Keyword And Return Status            Wait Until Element Is Visible      ${Search}     3s
+    Run Keyword If              '${Search_SKU}' != 'True'            Fail       Failed, Don't Find Button Search.
     Input Text              ${Search}           ${SKU_Child}
     Click Button            ${Search_Button}
     Click Link              ${Button_Icon_Com}
@@ -81,7 +101,6 @@ Add_Data_Two_SKU_Product_Child
     Wait Until Element Is Visible            ${Button_Yes}
     Sleep                   5s  
     Click Element                            ${Button_Yes}  
-
    
 
 

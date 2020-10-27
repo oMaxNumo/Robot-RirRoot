@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.7.3rc1 on darwin)" generated="20201022 14:51:24.380" rpa="false">
+<robot generator="Robot 3.2.2 (Python 3.7.3rc1 on darwin)" generated="20201026 18:04:31.359" rpa="false">
 <suite id="s1" name="TC 001 Add Shop" source="/Users/topvalue/Desktop/AriRoot/Automate test script ariroot/Automated Test Add Shop/Test Case For Feature Product/TC_001_Add_Shop.robot">
 <test id="s1-t1" name="TC002_Add_Product_Child_Two_Child">
 <kw name="Open WebBrowser" library="Common_Add_Shop">
@@ -9,22 +9,22 @@
 <arg>${URL_Menue_Product}</arg>
 <arg>${BROWSER_Chrome}</arg>
 </arguments>
-<msg timestamp="20201022 14:51:24.696" level="INFO">Opening browser 'Chrome' to base url 'http://staging-cm.airroot.asia/product'.</msg>
-<status status="PASS" starttime="20201022 14:51:24.695" endtime="20201022 14:51:28.290"></status>
+<msg timestamp="20201026 18:04:31.907" level="INFO">Opening browser 'Chrome' to base url 'http://staging-cm.airroot.asia/product'.</msg>
+<status status="PASS" starttime="20201026 18:04:31.906" endtime="20201026 18:04:36.022"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20201022 14:51:30.293" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20201022 14:51:28.291" endtime="20201022 14:51:30.293"></status>
+<msg timestamp="20201026 18:04:38.024" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20201026 18:04:36.022" endtime="20201026 18:04:38.025"></status>
 </kw>
 <kw name="Maximize Browser Window" library="Selenium2Library">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20201022 14:51:30.294" endtime="20201022 14:51:30.454"></status>
+<status status="PASS" starttime="20201026 18:04:38.025" endtime="20201026 18:04:38.195"></status>
 </kw>
-<status status="PASS" starttime="20201022 14:51:24.694" endtime="20201022 14:51:30.454"></status>
+<status status="PASS" starttime="20201026 18:04:31.906" endtime="20201026 18:04:38.196"></status>
 </kw>
 <kw name="Login with Email and Password" library="Common_Add_Shop">
 <arguments>
@@ -37,7 +37,7 @@
 <arg>${locator_Username}</arg>
 <arg>3s</arg>
 </arguments>
-<status status="PASS" starttime="20201022 14:51:30.455" endtime="20201022 14:51:30.492"></status>
+<status status="PASS" starttime="20201026 18:04:38.197" endtime="20201026 18:04:38.243"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -45,8 +45,8 @@
 <arg>${locator_Username}</arg>
 <arg>${username_ariroot}</arg>
 </arguments>
-<msg timestamp="20201022 14:51:30.493" level="INFO">Typing text 'maxnumtest12@gmail.com' into text field 'xpath=//input[@type = 'email']'.</msg>
-<status status="PASS" starttime="20201022 14:51:30.492" endtime="20201022 14:51:30.668"></status>
+<msg timestamp="20201026 18:04:38.244" level="INFO">Typing text 'maxnumtest12@gmail.com' into text field 'xpath=//input[@type = 'email']'.</msg>
+<status status="PASS" starttime="20201026 18:04:38.243" endtime="20201026 18:04:38.448"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -54,24 +54,24 @@
 <arg>${locator_Password}</arg>
 <arg>${password_airroot}</arg>
 </arguments>
-<msg timestamp="20201022 14:51:30.669" level="INFO">Typing text 'maxnum123' into text field 'xpath=//input[@type = 'password']'.</msg>
-<status status="PASS" starttime="20201022 14:51:30.668" endtime="20201022 14:51:30.773"></status>
+<msg timestamp="20201026 18:04:38.448" level="INFO">Typing text 'maxnum123' into text field 'xpath=//input[@type = 'password']'.</msg>
+<status status="PASS" starttime="20201026 18:04:38.448" endtime="20201026 18:04:38.555"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>${button_login}</arg>
 </arguments>
-<msg timestamp="20201022 14:51:30.774" level="INFO">Clicking element 'xpath=//button[@type = 'submit']'.</msg>
-<status status="PASS" starttime="20201022 14:51:30.774" endtime="20201022 14:51:31.354"></status>
+<msg timestamp="20201026 18:04:38.556" level="INFO">Clicking element 'xpath=//button[@type = 'submit']'.</msg>
+<status status="PASS" starttime="20201026 18:04:38.555" endtime="20201026 18:04:39.145"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3s</arg>
 </arguments>
-<msg timestamp="20201022 14:51:34.355" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20201022 14:51:31.354" endtime="20201022 14:51:34.355"></status>
+<msg timestamp="20201026 18:04:42.146" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20201026 18:04:39.145" endtime="20201026 18:04:42.146"></status>
 </kw>
 <kw name="Run Keyword And Return Status" library="BuiltIn">
 <doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
@@ -89,10 +89,10 @@
 <arg>AirRoot</arg>
 <arg>3s</arg>
 </arguments>
-<status status="PASS" starttime="20201022 14:51:34.358" endtime="20201022 14:51:34.376"></status>
+<status status="PASS" starttime="20201026 18:04:42.148" endtime="20201026 18:04:42.169"></status>
 </kw>
-<msg timestamp="20201022 14:51:34.377" level="INFO">${Clicked} = True</msg>
-<status status="PASS" starttime="20201022 14:51:34.356" endtime="20201022 14:51:34.378"></status>
+<msg timestamp="20201026 18:04:42.169" level="INFO">${Clicked} = True</msg>
+<status status="PASS" starttime="20201026 18:04:42.147" endtime="20201026 18:04:42.169"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -109,22 +109,22 @@
 <arguments>
 <arg>Passed, Login Web Success.</arg>
 </arguments>
-<msg timestamp="20201022 14:51:34.379" level="INFO">Passed, Login Web Success.</msg>
-<status status="PASS" starttime="20201022 14:51:34.379" endtime="20201022 14:51:34.379"></status>
+<msg timestamp="20201026 18:04:42.170" level="INFO">Passed, Login Web Success.</msg>
+<status status="PASS" starttime="20201026 18:04:42.170" endtime="20201026 18:04:42.171"></status>
 </kw>
-<status status="PASS" starttime="20201022 14:51:34.378" endtime="20201022 14:51:34.379"></status>
+<status status="PASS" starttime="20201026 18:04:42.170" endtime="20201026 18:04:42.171"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>5s</arg>
 </arguments>
-<msg timestamp="20201022 14:51:39.382" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20201022 14:51:34.380" endtime="20201022 14:51:39.383"></status>
+<msg timestamp="20201026 18:04:47.174" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20201026 18:04:42.171" endtime="20201026 18:04:47.174"></status>
 </kw>
-<status status="PASS" starttime="20201022 14:51:30.454" endtime="20201022 14:51:39.383"></status>
+<status status="PASS" starttime="20201026 18:04:38.197" endtime="20201026 18:04:47.175"></status>
 </kw>
-<kw name="Add_Data_Two_SKU_Product_Child" library="Common_Add_Shop">
+<kw name="Add_Data_SKU_Product_Child_One" library="Common_Add_Shop">
 <arguments>
 <arg>${SKU_Child}</arg>
 </arguments>
@@ -144,10 +144,10 @@
 <arg>${Search}</arg>
 <arg>3s</arg>
 </arguments>
-<status status="PASS" starttime="20201022 14:51:39.386" endtime="20201022 14:51:39.422"></status>
+<status status="PASS" starttime="20201026 18:04:47.179" endtime="20201026 18:04:47.213"></status>
 </kw>
-<msg timestamp="20201022 14:51:39.422" level="INFO">${Search_SKU} = True</msg>
-<status status="PASS" starttime="20201022 14:51:39.386" endtime="20201022 14:51:39.422"></status>
+<msg timestamp="20201026 18:04:47.213" level="INFO">${Search_SKU} = True</msg>
+<status status="PASS" starttime="20201026 18:04:47.178" endtime="20201026 18:04:47.213"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -156,15 +156,7 @@
 <arg>Fail</arg>
 <arg>Failed, Don't Find Button Search.</arg>
 </arguments>
-<status status="PASS" starttime="20201022 14:51:39.423" endtime="20201022 14:51:39.423"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>5s</arg>
-</arguments>
-<msg timestamp="20201022 14:51:44.424" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20201022 14:51:39.423" endtime="20201022 14:51:44.424"></status>
+<status status="PASS" starttime="20201026 18:04:47.214" endtime="20201026 18:04:47.214"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -172,56 +164,56 @@
 <arg>${Search}</arg>
 <arg>${SKU_Child}</arg>
 </arguments>
-<msg timestamp="20201022 14:51:44.426" level="INFO">Typing text '120025519' into text field 'xpath=//input[@name = 'filters[sku]']'.</msg>
-<status status="PASS" starttime="20201022 14:51:44.425" endtime="20201022 14:51:44.572"></status>
+<msg timestamp="20201026 18:04:47.215" level="INFO">Typing text '120025519' into text field 'xpath=//input[@name = 'filters[sku]']'.</msg>
+<status status="PASS" starttime="20201026 18:04:47.214" endtime="20201026 18:04:47.340"></status>
 </kw>
 <kw name="Click Button" library="Selenium2Library">
 <doc>Clicks the button identified by ``locator``.</doc>
 <arguments>
 <arg>${Search_Button}</arg>
 </arguments>
-<msg timestamp="20201022 14:51:44.573" level="INFO">Clicking button 'xpath=//button[@type='submit']'.</msg>
-<status status="PASS" starttime="20201022 14:51:44.573" endtime="20201022 14:51:44.958"></status>
+<msg timestamp="20201026 18:04:47.341" level="INFO">Clicking button 'xpath=//button[@type='submit']'.</msg>
+<status status="PASS" starttime="20201026 18:04:47.341" endtime="20201026 18:04:47.905"></status>
 </kw>
 <kw name="Click Link" library="Selenium2Library">
 <doc>Clicks a link identified by ``locator``.</doc>
 <arguments>
 <arg>${Button_Icon_Com}</arg>
 </arguments>
-<msg timestamp="20201022 14:51:44.958" level="INFO">Clicking link 'xpath=//a[@id='show_child_1']'.</msg>
-<status status="PASS" starttime="20201022 14:51:44.958" endtime="20201022 14:51:45.274"></status>
+<msg timestamp="20201026 18:04:47.906" level="INFO">Clicking link 'xpath=//a[@id='show_child_1']'.</msg>
+<status status="PASS" starttime="20201026 18:04:47.906" endtime="20201026 18:04:48.494"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3s</arg>
 </arguments>
-<msg timestamp="20201022 14:51:48.277" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20201022 14:51:45.274" endtime="20201022 14:51:48.277"></status>
+<msg timestamp="20201026 18:04:51.498" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20201026 18:04:48.494" endtime="20201026 18:04:51.498"></status>
 </kw>
 <kw name="Click Link" library="Selenium2Library">
 <doc>Clicks a link identified by ``locator``.</doc>
 <arguments>
-<arg>${Button_tank2}</arg>
+<arg>${Button_tank1}</arg>
 </arguments>
-<msg timestamp="20201022 14:51:48.278" level="INFO">Clicking link 'xpath=//a[@ID= 'show_shop_2']'.</msg>
-<status status="PASS" starttime="20201022 14:51:48.278" endtime="20201022 14:51:48.602"></status>
+<msg timestamp="20201026 18:04:51.499" level="INFO">Clicking link 'xpath=//a[@ID= 'show_shop_1']'.</msg>
+<status status="PASS" starttime="20201026 18:04:51.499" endtime="20201026 18:04:51.893"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20201022 14:51:50.603" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20201022 14:51:48.602" endtime="20201022 14:51:50.603"></status>
+<msg timestamp="20201026 18:04:53.896" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20201026 18:04:51.894" endtime="20201026 18:04:53.896"></status>
 </kw>
 <kw name="Click Link" library="Selenium2Library">
 <doc>Clicks a link identified by ``locator``.</doc>
 <arguments>
 <arg>${Link_Add}</arg>
 </arguments>
-<msg timestamp="20201022 14:51:50.604" level="INFO">Clicking link 'xpath=//a[contains(@class,'btn btn-success')]'.</msg>
-<status status="PASS" starttime="20201022 14:51:50.603" endtime="20201022 14:51:50.964"></status>
+<msg timestamp="20201026 18:04:53.897" level="INFO">Clicking link 'xpath=//a[contains(@class,'btn btn-success')]'.</msg>
+<status status="PASS" starttime="20201026 18:04:53.896" endtime="20201026 18:04:54.243"></status>
 </kw>
 <kw name="Select From List By Value" library="Selenium2Library">
 <doc>Selects options from selection list ``locator`` by ``values``.</doc>
@@ -229,61 +221,107 @@
 <arg>select_shop_id</arg>
 <arg>1</arg>
 </arguments>
-<msg timestamp="20201022 14:51:50.965" level="INFO">Selecting options from selection list 'select_shop_id' by value 1.</msg>
-<status status="PASS" starttime="20201022 14:51:50.965" endtime="20201022 14:51:51.068"></status>
+<msg timestamp="20201026 18:04:54.245" level="INFO">Selecting options from selection list 'select_shop_id' by value 1.</msg>
+<status status="PASS" starttime="20201026 18:04:54.244" endtime="20201026 18:04:54.360"></status>
 </kw>
 <kw name="Click Button" library="Selenium2Library">
 <doc>Clicks the button identified by ``locator``.</doc>
 <arguments>
 <arg>${Button_Submit}</arg>
 </arguments>
-<msg timestamp="20201022 14:51:51.070" level="INFO">Clicking button 'xpath=//button[@id='productUpdateButton']'.</msg>
-<status status="PASS" starttime="20201022 14:51:51.069" endtime="20201022 14:51:51.164"></status>
+<msg timestamp="20201026 18:04:54.361" level="INFO">Clicking button 'xpath=//button[@id='productUpdateButton']'.</msg>
+<status status="PASS" starttime="20201026 18:04:54.360" endtime="20201026 18:04:54.475"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="Selenium2Library">
 <doc>Waits until the element ``locator`` is visible.</doc>
 <arguments>
 <arg>${Button_Yes}</arg>
 </arguments>
-<status status="PASS" starttime="20201022 14:51:51.164" endtime="20201022 14:51:51.196"></status>
+<status status="PASS" starttime="20201026 18:04:54.475" endtime="20201026 18:04:54.507"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>5s</arg>
 </arguments>
-<msg timestamp="20201022 14:51:56.197" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20201022 14:51:51.196" endtime="20201022 14:51:56.197"></status>
+<msg timestamp="20201026 18:04:59.509" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20201026 18:04:54.507" endtime="20201026 18:04:59.509"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>${Button_Yes}</arg>
 </arguments>
-<msg timestamp="20201022 14:51:56.199" level="INFO">Clicking element 'xpath=//button[@class='swal2-confirm swal2-styled']'.</msg>
-<status status="PASS" starttime="20201022 14:51:56.198" endtime="20201022 14:51:59.897"></status>
+<msg timestamp="20201026 18:04:59.510" level="INFO">Clicking element 'xpath=//button[@class='swal2-confirm swal2-styled']'.</msg>
+<status status="PASS" starttime="20201026 18:04:59.509" endtime="20201026 18:05:02.209"></status>
 </kw>
-<status status="PASS" starttime="20201022 14:51:39.384" endtime="20201022 14:51:59.898"></status>
+<status status="PASS" starttime="20201026 18:04:47.175" endtime="20201026 18:05:02.209"></status>
 </kw>
-<kw name="Close All Browsers" library="Selenium2Library">
-<doc>Closes all open browsers and resets the browser cache.</doc>
-<status status="PASS" starttime="20201022 14:51:59.898" endtime="20201022 14:52:00.014"></status>
+<kw name="Add_Data_SKU_Product_Child_Two" library="Common_Add_Shop">
+<arguments>
+<arg>${SKU_Child}</arg>
+</arguments>
+<kw name="Run Keyword And Return Status" library="BuiltIn">
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<arguments>
+<arg>Wait Until Element Is Visible</arg>
+<arg>${Search}</arg>
+<arg>3s</arg>
+</arguments>
+<assign>
+<var>${Search_SKU}</var>
+</assign>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>${Search}</arg>
+<arg>3s</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201026 18:05:05.614" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201026 18:05:05.230" endtime="20201026 18:05:05.614"></status>
 </kw>
-<doc>Testcase Name : Add Product Child Shopee 2 Child | Description : เพิ่มข้อมูล Product Child Shopee เข้าสู่ระบบสำเสร็จ</doc>
-<status status="PASS" starttime="20201022 14:51:24.691" endtime="20201022 14:52:00.014" critical="yes"></status>
+<msg timestamp="20201026 18:05:05.618" level="FAIL">Element 'xpath=//input[@name = 'filters[sku]']' not visible after 3 seconds.</msg>
+<status status="FAIL" starttime="20201026 18:05:02.211" endtime="20201026 18:05:05.618"></status>
+</kw>
+<msg timestamp="20201026 18:05:05.618" level="INFO">${Search_SKU} = False</msg>
+<status status="PASS" starttime="20201026 18:05:02.211" endtime="20201026 18:05:05.618"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${Search_SKU}' != 'True'</arg>
+<arg>Fail</arg>
+<arg>Failed, Don't Find Button Search.</arg>
+</arguments>
+<kw name="Fail" library="BuiltIn">
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<arguments>
+<arg>Failed, Don't Find Button Search.</arg>
+</arguments>
+<msg timestamp="20201026 18:05:05.619" level="FAIL">Failed, Don't Find Button Search.</msg>
+<status status="FAIL" starttime="20201026 18:05:05.619" endtime="20201026 18:05:05.619"></status>
+</kw>
+<status status="FAIL" starttime="20201026 18:05:05.619" endtime="20201026 18:05:05.619"></status>
+</kw>
+<status status="FAIL" starttime="20201026 18:05:02.210" endtime="20201026 18:05:05.620"></status>
+</kw>
+<doc>Testcase Name : Add Product Child Shopee 2 Child 120025519 | Description : เพิ่มข้อมูล Product Child Shopee เข้าสู่ระบบสำเสร็จ</doc>
+<status status="FAIL" starttime="20201026 18:04:31.903" endtime="20201026 18:05:05.620" critical="yes">Failed, Don't Find Button Search.</status>
 </test>
 <doc>Test Case For Feature :: Product | Add Shop 200 Shop</doc>
-<status status="PASS" starttime="20201022 14:51:24.383" endtime="20201022 14:52:00.017"></status>
+<status status="FAIL" starttime="20201026 18:04:31.362" endtime="20201026 18:05:05.624"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0">Critical Tests</stat>
-<stat pass="1" fail="0">All Tests</stat>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" id="s1" name="TC 001 Add Shop">TC 001 Add Shop</stat>
+<stat pass="0" fail="1" id="s1" name="TC 001 Add Shop">TC 001 Add Shop</stat>
 </suite>
 </statistics>
 <errors>
